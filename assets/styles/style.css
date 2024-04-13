@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+    
+}
+body{height: 100vh;}
+header {
+    padding: 20px 20px 0 20px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    justify-content: flex-end;
+}
+.logo{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 10%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11%;
+}
+.wifi_text{
+    font-size: 140px;
+    margin-top: -30px;
+}
+.wifi_text span{
+    font-size: 40px;
+    float: inline-end;
+    /* margin-bottom: 6px; */
+    margin-top: 25px;
+}
+.reload{
+    margin: -6% 0 0 12%;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.btn{
+    padding: 8px 5px;
+    border: 1px solid #cccc;
+    border-radius: 8px;
+    color: #5a5858cc;
+    cursor: pointer;
+}
+.btn-r{
+    padding: 8px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+    border: none;
+    color: aliceblue;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+    gap: 10px;
+}
+.content img{
+    width: 60px;
+    height: 60px;
+}
+.content span{
+    color: #4a4a4a;
+    font-size: 12px;
+}
