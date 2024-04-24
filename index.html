@@ -3,38 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.5.2-web/css/all.min.css">
-    <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="styles.css">  -->
+    <!-- tạm thời comment cho buổi thực hành tiếp theo  -->
+
 </head>
 <body>
-    <header>
-        <ul>
-            <li>Tiếng Anh(Mỹ)</li>
-            <li>Sự riêng tư</li>
-        </ul>
-    </header>
-    <img src="./assets/img/logo.png" alt="logo_ptit" class="logo">
-    <div class="container">
-        <h1>Tốc độ Internet của bạn là</h1>
-        <h1 class="wifi_text">200 <span>Mb/giây</span></h1>
-        <button class="reload">
-            <i class="fa-solid fa-rotate-right"></i>
-        </button>
-        <button class="btn">Hiển thị thêm thông tin</button>
-        <div class="list_link">
-            <button class="btn-r">
-                <i class="fa-solid fa-question"></i>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="assets/img/youtuble_logo.png" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button class="btn-r"> <i class="fa-brands fa-facebook-f"></i></button>
-            <button class="btn-r"><i class="fa-brands fa-twitter"></i></button>
+        </div>
+        <div class="user-options">
+            <i class="fa-solid fa-grip icon"></i>
+            <i class="fa-solid fa-bell icon"></i>
+            <div class="user-dp">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active">
+            <img src="assets/img/home.PNG" alt="">
+            Home
+        </a>
+        <a href="#" class="links"><img src="assets/img/explore.PNG" alt="">Explore</a>
+        <a href="#" class="links"><img src="assets/img/subscription.PNG" alt="">Subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="assets/img/library.PNG" alt="">Library</a>
+        <a href="#" class="links"><img src="assets/img/history.PNG" alt="">History</a>
+        <a href="#" class="links"><img src="assets/img/your-video.PNG" alt="">Your video</a>
+        <a href="#" class="links"><img src="assets/img/watch-later.PNG" alt="">Watch leater</a>
+        <a href="#" class="links"><img src="assets/img/liked video.PNG" alt="">Like video</a>
+        <a href="#" class="links"><img src="assets/img/show more.PNG" alt="">Show more</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">Web development</button>
+        <button class="filter-options">Python</button>
+        <button class="filter-options">Entertainment</button>
+        <button class="filter-options">Game</button>
+        <button class="filter-options">Javascript</button>
+        <button class="filter-options">Artificial intelligence</button>
+        <button class="filter-options">Machine learning</button>
+        <button class="filter-options">Trending</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="assets/img/video.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="assets/img/channel.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</h4>
+                    <p class="channel-name">Wiz Khalifa</p>
+                </div>
+            </div>
         </div>
     </div>
-    <footer>
-        <div class="content">
-            <span>POWERED BY</span>
-            <img src="./assets/img/logo.png" alt="">
-        </div>
-    </footer>
+
+    <!-- 
+    <script src="app.js"></script> -->
+    <!-- tạm thời comment để call api cho buổi thực hành sau  -->
+    
 </body>
 </html>
